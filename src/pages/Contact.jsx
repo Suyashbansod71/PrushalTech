@@ -24,7 +24,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle form submission, for now, let's log the form data
     console.log(formData);
 };
 
@@ -51,7 +50,6 @@ const Contact = () => {
            <div className="social-links">
             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="instagram-logo.png" alt="Instagram Logo" /></a>
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.png" alt="LinkedIn Logo" /></a>
-            {/* Add more social links with appropriate images and URLs */}
         </div>
         </div>
        </div>
