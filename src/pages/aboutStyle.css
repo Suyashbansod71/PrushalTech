@@ -1,0 +1,125 @@
+.about {
+    display: flex;
+    justify-content: end;
+    padding-top: 8rem;
+    background-color: #EBF0F9;
+    text-align: justify;
+}
+
+.about-container {
+    width: 50%;
+    margin-left: 8rem;
+    
+}
+
+.about-container hr {
+    width: 50%;
+    margin-left: 0;
+}
+
+
+.about-container img {
+    /* height: 80%; */
+    /* display: block; Ensure the image behaves as a block element */
+    /* margin-left: -3rem; Align the image to the right side of its container */
+}
+
+.about-para1 {
+    display: flex;
+    text-align:justify;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    justify-content: space-between;
+}
+
+.about-para1 p{
+   font-size: 12px;
+}
+
+.about-para1-container {
+    width: 50%;
+    padding-right: 4em;
+}
+
+.about-para2{
+    display: flex;
+    text-align: justify;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+
+.about-para2 p {
+    font-size: 12px;
+}
+
+.about-para2-container {
+    width: 33.3%;
+    padding-right: 4rem;
+}
+
+.img2 {
+    padding-bottom: 4rem;
+}
+
+.img1 {
+    height: 300px;
+    width: 400px;
+    padding-bottom: 4.5rem;
+    border-radius: 10px;
+    padding-right: 5em;
+}
+
+@media (650px < width <= 990px) {
+    /* .img1 {
+        height: 70% !important;
+    } */
+    .img1 {
+        height: 197px;
+        width: 246px;
+    }
+    .about-container h1 {
+        font-size: 20px;
+    }
+
+    .about-container p{
+        font-size: 13px;
+    }
+}
+
+/* @media (650px < width <= 700px)
+{
+    .img1 {
+        height: 65% !important;
+    }
+} */
+
+@media (max-width:650px){
+    /* .img1 {
+        height: 50% !important;
+    } */
+
+     .img1 {
+        height: 197px;
+        width: 246px;
+     }
+    .about-container h1 {
+        font-size: 15px;
+    }
+
+    .about-container p{
+        font-size: 11px;
+    }
+
+    .about {
+        justify-content: center;
+    }
+}
+
+
+@media ( 375px <= width < 650px ) {
+   
+
+  
+}
