@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <>
-       <div className='contact'>
+       {/* <div className='contact'>
         <div className='container'>
           <h4>Contact Us</h4>
             <h1>We'd love to hear from you </h1>
@@ -52,9 +52,37 @@ const Contact = () => {
             <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.png" alt="LinkedIn Logo" /></a>
         </div>
         </div>
+       </div> */}
+  
+     <div className='contact1'>
+       <div className='contact-container'>
+        <h3>Contact Us</h3>
+       <h1>We'd love to hear from you </h1>
+       <p>Have any question in mind or want to enquire? Please feel free to contact us through the form or the following details.</p>
+       </div >
+       <div className='contact-container'>
+       <ul>
+            <li>Lets Talk</li>
+            <p>+1 23 456 789 hello@pruhal.com</p>
+             <hr/>
+            <li>Head Office</li>
+            <p>8 Brewery Drive, Hudson, NH 03051 USA</p>
+            <hr/>
+            <li>Branch Office</li>
+            <p>178 Marconi St, Venice, 34293, Italy</p>
+            <hr/>
+           </ul>
+           <div className="social-links">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="instagram-logo.png" alt="Instagram Logo" /></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.png" alt="LinkedIn Logo" /></a>
+        </div>
        </div>
 
-       <form onSubmit={handleSubmit} style={{ maxWidth: '600px', margin: '5rem auto' }}>
+
+     </div>
+
+
+       <form onSubmit={handleSubmit} className = 'contact-form'>
     <div style={{ display: 'flex', justifyContent: 'space-between', textAlign:'left' }}>
         <div style={{ width: '45%' }}>
             <label htmlFor="firstName">First Name</label>

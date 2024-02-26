@@ -94,3 +94,25 @@
     cursor: pointer;
 }
 
+
+@media ( 350px<= width <= 645px) {
+
+    footer {
+        display: flex;
+        background-color:black;
+        color: #fff;
+        padding: 4.5rem;
+    }
+    
+
+    .footer-columns {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+
+@media (max-width <= 645px){
+    
+
+}

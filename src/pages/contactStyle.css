@@ -1,61 +1,36 @@
-/* .contact {
-    padding-top: 10rem;
+
+.contact1 {
     display: flex;
+    text-align:justify;
+    padding-top: 7em;
     background-color: #EBF0F9;
-    height: 25rem;
-    width: 100%;
+    height: 420px;
+    padding-left: 8em;
+    padding-right: 8em;
 }
 
-.container {
-    margin-left: 1rem;
-    flex: 0 0 45%;
-    text-align: justify;
-    margin-left: 5rem;
-}
-
-.container li {
-    list-style: none;
-    font-weight: bold;
-}
-
-
- */
- .contact {
-    display: flex;
-    justify-content: space-around;
-    background-color: #EBF0F9;
-    padding-top: 8rem;
-    height: 20rem;
-}
-
-.container {
+.contact-container {
     width: 50%;
-    text-align: justify;
-    margin-left: 9rem;
 }
 
-.container p {
+
+.contact-container p {
     font-size: 14px;
 }
-.container h1 {
+.contact-container h1 {
     font-size: 36px;
 }
-
-.container h4 {
-    margin-top: 0;
-}
-
-.container ul {
+.contact-container ul{
     list-style-type: none;
-    margin-left: -3rem;
+    margin-left: 3rem;
     padding: 0;
 }
 
-.container ul li {
+.contact-container ul li {
     font-weight: bold;
 }
 
-.container ul li + p {
+.contact-container ul li + p {
     margin-top: 0.5rem;
  
 }
@@ -72,6 +47,57 @@
 }
 
 .social-links img {
-    width: 30px; /* Adjust the size of the social media icons */
-    margin-left: 1px; /* Add some spacing between the icons */
+    width: 30px; 
+    margin-left: 1px; 
 }
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 5rem auto;
+
+} 
+
+
+@media ( 500px <= width <= 765px){
+    .contact1{
+        padding-right: 6em;
+        padding-left: 6em;
+    }
+
+    .contact-container h1 {
+        font-size: 32px;
+    }
+    .contact-form {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+
+@media ( 350px <= width <= 500px){
+    .contact1{
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+
+    .contact-container h1 {
+        font-size: 24px;
+    }
+    
+.contact-container p {
+    font-size: 12px;
+}
+.contact-container ul{
+    list-style-type: none;
+    margin-left: 2rem;
+    padding: 0;
+}
+.contact-form {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+}
+
+

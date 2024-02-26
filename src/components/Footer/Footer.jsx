@@ -38,7 +38,7 @@ const Footer = () => {
             <div class="footer-column">
                 <h4>Our Team</h4>
                 <ul>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="">About Us</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">What we do</a></li>
                     <li><a href="#">Contact</a></li>
@@ -47,9 +47,9 @@ const Footer = () => {
             <div class="footer-column">
                 <h4>More</h4>
                 <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="http://localhost:3000/project">Projects</a></li>
+                    <li><a href="http://localhost:3000/event">Events</a></li>
+                    <li><a href="http://localhost:3000/services">Services</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
             </div>
